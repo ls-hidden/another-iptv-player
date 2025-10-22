@@ -640,4 +640,43 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get image_not_found => 'Imagen no encontrada';
+
+  @override
+  String get select_all => 'Seleccionar todo';
+
+  @override
+  String get deselect_all => 'Deseleccionar todo';
+
+  @override
+  String get hide_category => 'Ocultar categorías';
+
+  @override
+  String get rating => 'Clasificación';
+
+  @override
+  String get remove_from_history => 'Eliminar del historial';
+
+  @override
+  String get remove_from_history_confirmation =>
+      '¿Estás seguro de que quieres eliminar este elemento del historial de reproducción?';
+
+  @override
+  String get remove => 'Eliminar';
+
+  @override
+  String get clear_old_records => 'Limpiar registros antiguos';
+
+  @override
+  String get clear_old_records_confirmation =>
+      '¿Estás seguro de que quieres eliminar los registros de reproducción de más de 30 días?';
+
+  @override
+  String get clear_old => 'Limpiar antiguos';
+
+  @override
+  String get clear_all_history => 'Limpiar todo el historial';
+
+  @override
+  String get clear_all_history_confirmation =>
+      '¿Estás seguro de que quieres eliminar todo el historial de reproducción?';
 }

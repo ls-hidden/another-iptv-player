@@ -634,4 +634,43 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get image_not_found => 'Изображение не найдено';
+
+  @override
+  String get select_all => 'Выбрать всё';
+
+  @override
+  String get deselect_all => 'Отменить выбор всего';
+
+  @override
+  String get hide_category => 'Скрыть категории';
+
+  @override
+  String get rating => '';
+
+  @override
+  String get remove_from_history => 'Удалить из истории';
+
+  @override
+  String get remove_from_history_confirmation =>
+      'Вы уверены, что хотите удалить этот элемент из истории просмотров?';
+
+  @override
+  String get remove => 'Удалить';
+
+  @override
+  String get clear_old_records => 'Очистить старые записи';
+
+  @override
+  String get clear_old_records_confirmation =>
+      'Вы уверены, что хотите удалить записи просмотров старше 30 дней?';
+
+  @override
+  String get clear_old => 'Очистить старые';
+
+  @override
+  String get clear_all_history => 'Очистить всю историю';
+
+  @override
+  String get clear_all_history_confirmation =>
+      'Вы уверены, что хотите удалить всю историю просмотров?';
 }

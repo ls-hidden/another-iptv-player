@@ -639,4 +639,43 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get image_not_found => 'Bild nicht gefunden';
+
+  @override
+  String get select_all => 'Alle auswählen';
+
+  @override
+  String get deselect_all => 'Auswahl aufheben';
+
+  @override
+  String get hide_category => 'Kategorien ausblenden';
+
+  @override
+  String get rating => 'Bewertung';
+  
+  @override
+  String get remove_from_history => 'Aus Verlauf entfernen';
+
+  @override
+  String get remove_from_history_confirmation =>
+      'Sind Sie sicher, dass Sie diesen Artikel aus dem Wiedergabeverlauf entfernen möchten?';
+
+  @override
+  String get remove => 'Entfernen';
+
+  @override
+  String get clear_old_records => 'Alte Einträge löschen';
+
+  @override
+  String get clear_old_records_confirmation =>
+      'Sind Sie sicher, dass Sie Wiedergabeeinträge älter als 30 Tage löschen möchten?';
+
+  @override
+  String get clear_old => 'Alte löschen';
+
+  @override
+  String get clear_all_history => 'Gesamten Verlauf löschen';
+
+  @override
+  String get clear_all_history_confirmation =>
+      'Sind Sie sicher, dass Sie den gesamten Wiedergabeverlauf löschen möchten?';
 }

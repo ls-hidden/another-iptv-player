@@ -1271,6 +1271,77 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Image Not Found'**
   String get image_not_found;
+
+  /// No description provided for @select_all.
+  ///
+  /// In en, this message translates to:
+  /// **'Select All'**
+  String get select_all;
+
+  /// No description provided for @deselect_all.
+  ///
+  /// In en, this message translates to:
+  /// **'Deselect All'**
+  String get deselect_all;
+
+  /// No description provided for @hide_category.
+  ///
+  /// In en, this message translates to:
+  /// **'Hide categories'**
+  String get hide_category;
+
+  /// No description provided for @rating.
+  ///
+  /// In en, this message translates to:
+  /// **'Rating'**
+  String get rating;
+  /// No description provided for @remove_from_history.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove from History'**
+  String get remove_from_history;
+
+  /// No description provided for @remove_from_history_confirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to remove this item from watch history?'**
+  String get remove_from_history_confirmation;
+
+  /// No description provided for @remove.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove'**
+  String get remove;
+
+  /// No description provided for @clear_old_records.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear Old Records'**
+  String get clear_old_records;
+
+  /// No description provided for @clear_old_records_confirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete watch records older than 30 days?'**
+  String get clear_old_records_confirmation;
+
+  /// No description provided for @clear_old.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear Old'**
+  String get clear_old;
+
+  /// No description provided for @clear_all_history.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear All History'**
+  String get clear_all_history;
+
+  /// No description provided for @clear_all_history_confirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete all watch history?'**
+  String get clear_all_history_confirmation;
 }
 
 class _AppLocalizationsDelegate

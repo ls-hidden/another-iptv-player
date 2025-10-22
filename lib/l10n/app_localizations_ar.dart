@@ -631,4 +631,43 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get image_not_found => 'الصورة غير موجودة';
+
+  @override
+  String get select_all => 'حدد الكل';
+
+  @override
+  String get deselect_all => 'إلغاء تحديد الكل';
+
+  @override
+  String get hide_category => 'إخفاء الفئا';
+
+  @override
+  String get rating => 'تصنيف';
+  
+  @override
+  String get remove_from_history => 'إزالة من السجل';
+
+  @override
+  String get remove_from_history_confirmation =>
+      'هل أنت متأكد من أنك تريد إزالة هذا العنصر من سجل المشاهدة؟';
+
+  @override
+  String get remove => 'إزالة';
+
+  @override
+  String get clear_old_records => 'مسح السجلات القديمة';
+
+  @override
+  String get clear_old_records_confirmation =>
+      'هل أنت متأكد من أنك تريد حذف سجلات المشاهدة الأقدم من 30 يومًا؟';
+
+  @override
+  String get clear_old => 'مسح القديم';
+
+  @override
+  String get clear_all_history => 'مسح كل السجل';
+
+  @override
+  String get clear_all_history_confirmation =>
+      'هل أنت متأكد من أنك تريد حذف كل سجل المشاهدة؟';
 }
